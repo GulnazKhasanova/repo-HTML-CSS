@@ -1,0 +1,338 @@
+<!DOCTYPE HTML>
+<html lang='en'>
+
+<head>
+    <title>stor</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../src/layout/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+</head>
+
+<body>
+   
+    <container>
+        <header>
+            <div class="header_1">
+                <div class="logo"><img src="../src/assets/img/group_2_18.png" alt="" class="log"></div>
+                <p class="name_site">BRAN<span class="symbol_d">D</span></p>
+                <div class="search">
+                    <a href="#" class="button_browse">Browse <img src="../src/assets/img/__52.png" alt="" class="strela"></a>
+                    <input class="search_input_shop" type="text" value="Search for Item...">
+                    <button class="search_top"><img src="../src/assets/img/__59.png" alt="" class="search_img"></button>
+                </div>
+                <div id="basket_shop">
+                    <img src="../src/assets/img/forma_1_1113.svg" alt="">
+                    <div class="basket_inner hidden">
+                        <div class="show_basket " id="basket_item">
+                        </div>
+                        <div class="total_basket">
+                                   <div class="total_txt">
+                                    <p class="text_tot">TOTAL</p>
+                                    <p class="text_tot" id = "basket_sum">$570</p>
+                                    </div>
+                                    <div>
+                                        <a href="" class="button_basket">CHECKOUT</a>
+                                        <a href="" class="button_basket">GO TO CART</a>
+                                    </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <a class="shop_account">My Account <img src="../src/assets/img/__1109.png" alt="" class="bstrela"></a>
+            </div>
+            <div class="nav">
+                <ul class="h_shop">
+                    <li class="h_shop_style"><a href="" class="h_link h_link_activ "> Home</a></li>
+                    <li class="h_shop_style"><a href="" class="h_link">Man</a></li>
+                    <li class="h_shop_style"><a href="" class="h_link">Women</a></li>
+                    <li class="h_shop_style"><a href="" class="h_link">Kids</a></li>
+                    <li class="h_shop_style"><a href="" class="h_link">Accoseriese</a></li>
+                    <li class="h_shop_style"><a href="" class="h_link">Featured</a></li>
+                    <li class="h_shop_style"><a href="" class="h_link">Hot Deals</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="baner1">
+            <div class="img_baner1"></div>
+            <div class="text_baner1">
+                <h2 class="text_content">THE BRAND</h2>
+                <h3 class="text_content text_content2">OF LUXERIOUS FASHION</h3>
+            </div>
+        </div>
+        <main>
+            <div class="collection clearfix">
+                <div class="block_2">
+                    <div class="img_block2">
+                        <div class="text_cont">
+                            <p class="t_cont1">hOT dEAL</p>
+                            <p class="t_cont1 t_cont2">FOR MEN</p>
+                        </div>
+                        <img src="../src/assets/img/rectangle_19_1130.jpg" alt="" class="content_img">
+
+                    </div>
+                    <div class="img_block2_b">
+                        <div class="text_cont">
+                            <p class="t_cont1">LUXIROUS & trendy</p>
+                            <p class="t_cont1 t_cont2">ACCESORIES</p>
+                        </div>
+                        <img src="../src/assets/img/rectangle_19_copy_3_1144.jpg" alt="" class="content_img_b">
+
+                    </div>
+                </div>
+                <div class="block_2">
+                    <div class="img_block2_b">
+                        <div class="text_cont">
+                            <p class="t_cont1">30% offer</p>
+                            <p class="t_cont1 t_cont2">women</p>
+                        </div>
+                        <img src="../src/assets/img/rectangle_19_copy_1136.jpg" alt="" class="content_img_b">
+
+                    </div>
+                    <div class="img_block2">
+                        <div class="text_cont">
+                            <p class="t_cont1">new arrivals</p>
+                            <p class="t_cont1 t_cont2">FOR kids</p>
+                        </div>
+                        <img src="../src/assets/img/rectangle_19_copy_2_1137.jpg" alt="" class="content_img">
+
+                    </div>
+                </div>
+            </div>
+            <div class="fetured_h2_title">
+                <h2 class="block_fetured">Fetured Items</h2>
+                <p class="subtitle_blockitem">Shop for items based on what we featured in this week</p>
+            </div>
+            <div class="block_fetured_items" id="catalog">
+                <!--div class="row_item_card">
+                    <div class="item_card">
+                        <div class="item_img">
+                            <img src="img/rectangle_5_copy_1193.jpg" alt="" class="img_blockitem">
+                            <div class="layer">
+                                <a href="" class="add_to_cart1">Add to Cart</a>
+                            </div>
+                        </div>
+                        <div class="title_blockitem">
+                            <p class="text_blockitem">Mango People T-shirt</p>
+                            <p class="price_blockitem">$52.00</p>
+                        </div>
+                    </div>
+                    <div class="item_card">
+                        <div class="item_img">
+                            <img src="img/rectangle_5_copy_1201.jpg" alt="" class="img_blockitem">
+                            <div class="layer">
+                                <a href="" class="add_to_cart1">Add to Cart</a>
+                            </div>
+                        </div>
+                        <div class="title_blockitem">
+                            <p class="text_blockitem">Mango People T-shirt</p>
+                            <p class="price_blockitem">$52.00</p>
+                        </div>
+                    </div>
+                    <div class="item_card">
+                        <div class="item_img">
+                            <img src="img/rectangle_5_copy_3_1209.jpg" alt="" class="img_blockitem">
+                            <div class="layer">
+                                <a href="" class="add_to_cart1">Add to Cart</a>
+                            </div>
+                        </div>
+                        <div class="title_blockitem">
+                            <p class="text_blockitem">Mango People T-shirt</p>
+                            <p class="price_blockitem">$52.00</p>
+                        </div>
+                    </div>
+                    <div class="item_card">
+                        <div class="item_img">
+                            <img src="img/rectangle_5_copy_1240.jpg" alt="" class="img_blockitem">
+                            <div class="layer">
+                                <a href="" class="add_to_cart1">Add to Cart</a>
+                            </div>
+                        </div>
+                        <div class="title_blockitem">
+                            <p class="text_blockitem">Mango People T-shirt</p>
+                            <p class="price_blockitem">$52.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row_item_card">
+                    <div class="item_card">
+                        <div class="item_img">
+                            <img src="img/rectangle_5_copy_1248.jpg" alt="" class="img_blockitem">
+                            <div class="layer">
+                                <a href="" class="add_to_cart1">Add to Cart</a>
+                            </div>
+                        </div>
+                        <div class="title_blockitem">
+                            <p class="text_blockitem">Mango People T-shirt</p>
+                            <p class="price_blockitem">$52.00</p>
+                        </div>
+                    </div>
+                    <div class="item_card">
+                        <div class="item_img">
+                            <img src="img/rectangle_5_copy_1256.jpg" alt="" class="img_blockitem">
+                            <div class="layer">
+                                <a href="" class="add_to_cart1">Add to Cart</a>
+                            </div>
+                        </div>
+                        <div class="title_blockitem">
+                            <p class="text_blockitem">Mango People T-shirt</p>
+                            <p class="price_blockitem">$52.00</p>
+                        </div>
+                    </div>
+                    <div class="item_card">
+                        <div class="item_img">
+                            <img src="img/rectangle_5_copy_1264.jpg" alt="" class="img_blockitem">
+                            <div class="layer">
+                                <a href="" class="add_to_cart1">Add to Cart</a>
+                            </div>
+                        </div>
+                        <div class="title_blockitem">
+                            <p class="text_blockitem">Mango People T-shirt</p>
+                            <p class="price_blockitem">$52.00</p>
+                        </div>
+                    </div>
+                    <div class="item_card">
+                        <div class="item_img">
+                            <img src="img/rectangle_5_copy_1272.jpg" alt="" class="img_blockitem">
+                            <div class="layer">
+                                <a href="" class="add_to_cart1">Add to Cart</a>
+                            </div>
+                        </div>
+                        <div class="title_blockitem">
+                            <p class="text_blockitem">Mango People T-shirt</p>
+                            <p class="price_blockitem">$52.00</p>
+                        </div>
+                    </div>
+                </div-->
+            </div>
+            <div class="all_product">
+                <a href="" class="button_prod">Browse All Product</a>
+            </div>
+            <div class="baner2">
+                <div class="baner2_bl_1">
+                    <div class="ban2_t">
+                        <h2 class="h2_baner2_text">30% OFFER</h2>
+                        <p class="baner2_text">FOR WOMEN</p>
+                    </div>
+                    <img src="../src/assets/img/rectangle_21_copy_1314.jpg" alt="" class="baner2_img">
+                </div>
+                <div class="baner2_bl_2">
+                    <div class="bl_2_cont_1">
+                        <div class="bl_2_text">
+                            <h3 class="bl_2_title">Free Delivery</h3>
+                            <p class="bl_2_p">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                        </div>
+                    </div>
+                    <div class="bl_2_cont_2">
+                        <div class="bl_2_text">
+                            <h3 class="bl_2_title">Sales & discounts</h3>
+                            <p class="bl_2_p">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                        </div>
+                    </div>
+
+                    <div class="bl_2_cont_3">
+                        <div class="bl_2_text">
+                            <h3 class="bl_2_title">Quality assurance</h3>
+                            <p class="bl_2_p">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+        <div class="baner3">
+            <div class="ten">
+                <div class="content_baner3">
+                    <div class="slider_ban3">
+                        <img src="../src/assets/img/ellipse_3_2206.jpg" alt="" class="img_ban3">
+                        <p class="text_ban3">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+                        <p class="sign_ban3">Bin Burhan</p>
+                        <p class="_ban3">Dhaka, Bd</p>
+                        <div class="ban3_nav">
+                            <div class="ban3_li"></div>
+                            <div class="ban3_li activ_li"></div>
+                            <div class="ban3_li"></div>
+                        </div>
+                    </div>
+                    <div class="polosa"></div>
+                    <div class="subscribe">
+                        <h2 class="sub_text">Subscribe</h2>
+                        <p class="sub_p">FOR OUR NEWLETTER AND PROMOTION</p>
+                        <input type="text" class="sub_input" value="Enter Your Email">
+                        <a href="" class="buton_subscribe">Subscribe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </container>
+
+    <footer>
+        <div class="footer_shop">
+            <div class="footer_1">
+                <img src="../src/assets/img/group_2_18.png" alt="" class="log_f">
+                <p class="otstup name_site">BRAN<span class="symbol_d">D</span></p>
+                <p class="footer_1_text">Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.</p>
+                <p class="footer_1_text"> Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
+            </div>
+            <div class="footer_2">
+                <h2 class="footer_h2">COMPANY</h2>
+                <ul class="footer_ul">
+                    <li class="footer_list"><a href="" class="link_style link_footer_1">Home</a></li>
+                    <li class="footer_list"><a href="" class="link_style link_footer">Shop</a></li>
+                    <li class="footer_list"><a href="" class="link_style link_footer">About</a></li>
+                    <li class="footer_list"><a href="" class="link_style link_footer">How It Works</a></li>
+                    <li class="footer_list"><a href="" class="link_style link_footer">Contact </a></li>
+                </ul>
+            </div>
+            <div class="footer_3">
+                <h2 class="footer_h2">INFORMATION</h2>
+                <ul class="footer_ul">
+                    <li class="footer_list"><a href="" class="link_style link_footer_1">Tearms & Condition</a></li>
+                    <li class="footer_list"><a href="" class="link_style link_footer">Privacy Policy</a></li>
+                    <li class="footer_list"><a href="" class="link_style link_footer">How to Buy</a></li>
+                    <li class="footer_list"><a href="" class="link_style link_footer">How to Sell</a></li>
+                    <li class="footer_list"><a href="" class="link_style link_footer">Promotion </a></li>
+                </ul>
+            </div>
+            <div class="footer_4">
+                <h2 class="footer_h2">SHOP CATEGORY</h2>
+                <ul class="footer_ul">
+                    <li class="footer_list"><a href="" class="link_style link_footer_1">Men </a></li>
+                    <li class="footer_list"><a href="" class="link_style link_footer">Women</a></li>
+                    <li class="footer_list"><a href="" class="link_style link_footer">Child</a></li>
+                    <li class="footer_list"><a href="" class="link_style link_footer">Apparel</a></li>
+                    <li class="footer_list"><a href="" class="link_style link_footer">Brows All </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyr">
+            <p class="copyr_text">© 2017 Brand All Rights Reserved.</p>
+            <div class="soc">
+                <div class="img_soc"><img src="../src/assets/img/__420.png" alt=""></div>
+                <div class="img_soc_activ "><img src="../src/assets/img/__425.png" alt=""></div>
+                <div class="img_soc"><img src="" alt=""></div>
+                <div class="img_soc"><img src="" alt=""></div>
+                <div class="img_soc"><img src="" alt=""></div>
+            </div>
+        </div>
+    </footer>
+    
+   <script src="../src/components/index/closebasket.js"></script>
+   <script src="../src/components/index/basket.js"></script>
+   <script src="../src/components/index/feturedblick.js"></script>
+
+   <script>
+    var basket = initBasket();
+        basket.init();
+       
+    var catalog = initCatalog();
+        catalog.init(basket);
+   </script>
+     
+</body>
+
+</html>
